@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://rjshkhr.github.io/lexzino',
+  title: 'AU.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Alex Udeze',
   role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  description: `
+I’m a frontend engineer with 1–2 years of experience building responsive, high-performance web applications. I specialize in React, Next.js, and TypeScript, with a solid foundation in Java. I’m passionate about crafting clean, scalable code and transforming UI/UX designs into seamless user experiences. I thrive in collaborative environments and work well with backend teams to deliver robust full-stack solutions. What drives me is a strong ambition to one day build my own tech firm, and I approach every project as a step toward that goal—continually learning, improving, and innovating.`,
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    github: 'https://github.com/lexzino',
   },
 }
 
@@ -21,51 +21,28 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Rapido Relief',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['HTML', 'JavaScript', 'TypeScript', 'React'],
+    livePreview: 'https://rapido-new.vercel.app/',
   },
 ]
 
 const skills = [
   // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Next.js',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'alexudeze001@mail.com',
 }
 
 export { header, about, projects, skills, contact }
