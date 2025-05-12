@@ -6,7 +6,7 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Alex Udeze',
+  name: 'Alexander Udeze',
   role: 'Front End Engineer',
   description: `
 I’m a frontend engineer with 1–2 years of experience building responsive, high-performance web applications. I specialize in React, Next.js, and TypeScript, with a solid foundation in Java. I’m passionate about crafting clean, scalable code and transforming UI/UX designs into seamless user experiences. I thrive in collaborative environments and work well with backend teams to deliver robust full-stack solutions. What drives me is a strong ambition to one day build my own tech firm, and I approach every project as a step toward that goal—continually learning, improving, and innovating.`,
