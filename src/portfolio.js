@@ -37,8 +37,11 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
+  'React Native',
   'Next.js',
   'Git',
+  'Java',
+  'Python',
 ]
 
 const contact = {
